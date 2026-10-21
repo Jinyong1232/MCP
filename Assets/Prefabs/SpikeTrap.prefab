@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3621934993714000349
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7008791567312008256}
+  - component: {fileID: 8438535593174371278}
+  - component: {fileID: 7454846698523428745}
+  m_Layer: 0
+  m_Name: SpikeTrap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7008791567312008256
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3621934993714000349}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8438535593174371278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3621934993714000349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9aaea40a62ce0ff4e9c2435e25d47b1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FogVisibility
+  player: {fileID: 0}
+  visionRadius: 8
+  targetRenderers: []
+--- !u!114 &7454846698523428745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3621934993714000349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a65740db1aec988459dc268ea7b7cda8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpikeTrap
+  pathManager: {fileID: 0}
+  tileIndexA: -1
+  tileIndexB: -1
+  tileLength: 2
+  boxWidth: 2.2
+  boxHeight: 2
+  tickInterval: 0.25
+  tickDamage: 4
+  targetLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  spikeCount: 8
+  spikeRadius: 0.22
+  spikeHeight: 0.45
+  spikeColor: {r: 0.32, g: 0.33, b: 0.35, a: 1}
+  damageNumberPrefab: {fileID: 2639468976361111102, guid: b9ab79d7e7c3cca4e8f17734d72b25e4, type: 3}
+  damageNumberParent: {fileID: 0}
