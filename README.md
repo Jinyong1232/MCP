@@ -14,9 +14,7 @@
 ![Role](https://img.shields.io/badge/Role-Game_Design-784212?style=flat-square)
 ![AI](https://img.shields.io/badge/Built_with-Claude_Code_×_Unity_MCP-C0392B?style=flat-square)
 
-<!-- 플레이 영상이 생기면 아래 주석을 풀고 링크를 넣으세요
-[![Play Video](https://img.shields.io/badge/YouTube-플레이_영상-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/영상주소)
--->
+[![Play Video](https://img.shields.io/badge/YouTube-플레이_영상-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/KIPd0F1q3HQ)
 
 </div>
 
@@ -75,6 +73,14 @@ flowchart LR
     F -.->|위험한 구간| G[스킬 사용<br/>가속 · 무적 · 정지 · 조명탄]
     G -.-> A
 ```
+
+<br/>
+
+## 플레이 영상
+
+<a href="https://youtu.be/KIPd0F1q3HQ"><img src="https://img.youtube.com/vi/KIPd0F1q3HQ/hqdefault.jpg" width="640" alt="여우는 죄가 없다 플레이 하이라이트 영상"/></a>
+
+이미지를 누르면 유튜브에서 하이라이트 영상이 열립니다.
 
 <br/>
 
